@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: General Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 8192
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 2
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Standalone
+      m_MaxTextureSize: 8192
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 29
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 5ef3a737fc80f9c4cadfbf230c801fcf, type: 3}
+    - {fileID: 102900000, guid: 27307b06a29cbed40ac470e54f53bef6, type: 3}
+    - {fileID: 102900000, guid: d956365ec5b63794cb3aec38be0109eb, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 095bf9209f8521b4db3e09d60d388ae5, type: 3}
+  - {fileID: 21300000, guid: 7c0b1ba021f8c8349b3391f84c658c04, type: 3}
+  - {fileID: 21300000, guid: 7ba3e9f098297384aaa59d62940e4fea, type: 3}
+  - {fileID: 21300000, guid: 93b62f51adc6d8247917e8f55cc8530d, type: 3}
+  - {fileID: 21300000, guid: 5ad9877245c376e41925fb52fd812bd9, type: 3}
+  - {fileID: 21300000, guid: 4f2c2d73a6dc13c48baa13b5dbfd2e6d, type: 3}
+  - {fileID: 21300000, guid: 7b1e9183b3e99f94fb025da0f143a14d, type: 3}
+  - {fileID: 21300000, guid: c7468bb30f77a714c9975c6efde180d0, type: 3}
+  - {fileID: 21300000, guid: 7833fd242bdf605448b86241673f713d, type: 3}
+  - {fileID: 21300000, guid: fcd91134ac22bfc40aa580758b2ab6b8, type: 3}
+  - {fileID: 21300000, guid: 497d9154b54c10b4a972b7047018c3c7, type: 3}
+  - {fileID: 21300000, guid: a812cfe430758dc4fb58d2b78a0879d1, type: 3}
+  - {fileID: 21300000, guid: 49a5d865a8d775444af140b51a41babe, type: 3}
+  - {fileID: 21300000, guid: e041f446826f7f64ebf6cd72fbd17299, type: 3}
+  - {fileID: 21300000, guid: 88bab02950c91654eacdfd8796a3c626, type: 3}
+  - {fileID: 21300000, guid: 55b6d1f99a5415645a821d8a530a5e1c, type: 3}
+  - {fileID: 21300000, guid: 8a7fe2f9940d3c740b53772bab085eb7, type: 3}
+  - {fileID: 21300000, guid: 3981b2ba1d439864fbe0de34aecceea7, type: 3}
+  - {fileID: 21300000, guid: 542b9e3b561e7f843b86b13ab3b46dba, type: 3}
+  - {fileID: 21300000, guid: 17a6583cf08ba694b83a3aed2f54ce5a, type: 3}
+  - {fileID: 21300000, guid: 2af6924ca9859a04882ed4ccaebbe36d, type: 3}
+  - {fileID: 21300000, guid: 2be0ca8c34d9ad3459f538c2b2135ba6, type: 3}
+  - {fileID: 21300000, guid: 46a8b2ec666105944bb79a875777c183, type: 3}
+  - {fileID: 21300000, guid: d936458e0ac5be34fb2a61627153d775, type: 3}
+  - {fileID: 21300000, guid: 11c523ee02faf594ab223a0ce9ab006a, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Smoke
+  - Bullet01
+  - KillerHeadTop
+  - Mouse
+  - EnemyGun
+  - LevelStrike
+  - PlayerTankHeadMachine
+  - KillerBody
+  - LevelBullet
+  - Spark2
+  - PlayerTankBase
+  - ArmorJeepBody
+  - HeavyHead
+  - Blank
+  - ArmorJeepHeadTop
+  - LevelRotate
+  - FriendGun
+  - LevelShield
+  - TankTireMark
+  - Spark
+  - FireShine
+  - HeavyBody
+  - KeyButton
+  - ExplodeCircle
+  - PlayerTankHeadBase
+  m_RenderDataMap: {}
+  m_Tag: General Atlas
+  m_IsVariant: 0
