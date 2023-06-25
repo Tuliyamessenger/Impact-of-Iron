@@ -147,6 +147,7 @@ public class AIUnitControler : MonoBehaviour
             curAttackDuring -= deltaTime;
         }
         else if (curAttackWait <= attackKeeping && dis.sqrMagnitude <= attackRadius * attackRadius) {
+            //¿ª»ð
             if(attackGunIndex < 0) {
                 attackGunIndex = gunList.Length - 1;
             }
@@ -155,6 +156,7 @@ public class AIUnitControler : MonoBehaviour
             }
             gunList[attackGunIndex].Fire();
             attackGunIndex += 1;
+
             curAttackDuring += attackDuring;
             if(curAttackDuring < 0) {
                 curAttackDuring = 0;

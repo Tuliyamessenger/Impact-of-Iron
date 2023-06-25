@@ -79,7 +79,11 @@ public static class CommonUtil
             return 0;
         }
         //夹角
-        float angle = Mathf.Acos(Vector2.Dot(A, B) / magnitude);
+        magnitude = Vector2.Dot(A, B) / magnitude; //误差会导致正好为1。
+        if(Mathf.Approximately(magnitude, 1)) {
+            return 0;
+        }
+        float angle = Mathf.Acos(magnitude);
         return angle * Mathf.Rad2Deg * (Vector2Pos(A, B) ? -1 : 1);
     }
 
